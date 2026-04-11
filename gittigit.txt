@@ -1,0 +1,8 @@
+def selamla():
+    print("**********************************")
+    print("BAŞLIYORUZ")
+    print(" Şampiyon Galatasaray  ")
+    print("**********************************")
+    
+if __name__ == "__main__":
+    selamla()
