@@ -1,0 +1,9 @@
+def sampiyonluk_kutla(sayi):
+    print(f"\n--- HEDEF {sayi + 1} ---")
+    for i in range(3):
+        print(f"{sayi}. Şampiyon Galatasaray! 🏆")
+    print("En Büyük Cimbom!\n")
+
+if __name__ == "__main__":
+    mevcut = 24  # Güncel şampiyonluk sayısı
+    sampiyonluk_kutla(mevcut)
