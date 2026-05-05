@@ -1,0 +1,25 @@
+import math
+
+def round_up(x):
+    return math.ceil(x)
+
+
+print(round_up(3.2))
+
+
+def round_down(x):
+    return math.floor(x)
+    
+print(round_down(5.8))
+
+
+a = 10
+b = "Galatasaray"
+c = 3.14
+d = True
+
+print("\nVeri Tipleri:")
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
